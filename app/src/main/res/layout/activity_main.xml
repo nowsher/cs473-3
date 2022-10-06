@@ -33,7 +33,7 @@
     <TextView
         android:id="@+id/textViewBlank"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="55dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -47,10 +47,13 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+
         android:ems="10"
         android:inputType="textPersonName"
-        android:singleLine="false"
-        android:text="Name" />
+
+        android:padding="10dp"
+        android:singleLine="false" />
 
     <TextView
         android:id="@+id/textView8"
@@ -65,16 +68,20 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+
+        android:padding="10dp"
+        android:password="true" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autoLink="all"
-        android:linksClickable="true"
+        android:clickable="true"
         android:text="Forgot password?"
         android:textAlignment="viewEnd"
         android:textSize="16sp"
@@ -85,7 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:backgroundTint="#2196F3"
         android:text="Sign in"
         android:textAllCaps="false"
@@ -128,14 +135,19 @@
 
     </LinearLayout>
 
+    <!-- uses border -->
     <Button
         android:id="@+id/button3"
+
+
+        android:background="@color/purple_700"
+        app:backgroundTint="@android:color/transparent"
+        android:textColor="#2196F3"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
         android:text="Create a new account"
         android:textAllCaps="false"
-        android:textColor="#2196F3"
         android:textSize="16sp"
         android:textStyle="bold" />
 
